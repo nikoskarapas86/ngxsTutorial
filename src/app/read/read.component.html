@@ -1,0 +1,6 @@
+<ul>
+
+  <li *ngFor="let tutorial of tutorials$ | async">
+    <span>{{tutorial.name}}</span><span><button (click)="delTutorial(tutorial)">del</button></span>
+  </li>
+</ul>

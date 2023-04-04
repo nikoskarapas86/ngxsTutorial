@@ -1,0 +1,2 @@
+yarn add @ngxs/store
+yarn add @ngxs/logger-plugin @ngxs/devtools-plugin --save
